@@ -27,7 +27,7 @@ noaa_df <-
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Minimum Temperature by Month
 
 ```{r}
 noaa_df %>% 
@@ -38,14 +38,14 @@ noaa_df %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Average Precipitation by Month
 
 ```{r}
 noaa_df %>% group_by(month) %>% 
   summarize(avg_prcp = mean(prcp, na.rm = TRUE)) %>% plot_ly(x = ~month, y = ~avg_prcp, type = "scatter", mode = "line") 
 ```
 
-### Chart C
+### Average Maximum Temperature by Year
 
 ```{r}
 noaa_df %>% 

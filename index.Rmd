@@ -8,11 +8,15 @@ output:
 
 <img src="photo/IMG_9988.HEIC.jpg" style="width:25%">
 
-
+### Education
 
 I am a 1st year Biostatistics Masters student at Columbia Mailman School of Public Health, concentrating on Public Health Data Science. I graduated from UCLA in 2024 with a Bachelor of Science in Applied Mathematics and a minor in Statistics and Data Science. 
 
-I am excited to further my knowledge in the connection between public health and statistics/data science with my masters degree! 
+### Work Experience 
+
+I currently work as a student research worker for the Columbia School of Nursing doing social network analysis and data management. 
+
+
 
 
 
