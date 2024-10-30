@@ -49,8 +49,7 @@ noaa_df %>% group_by(month) %>%
 
 ```{r}
 noaa_df %>% 
-  group_by(year) %>% 
-  summarize(avg_tmax = mean(tmax, na.rm = TRUE)) %>%
-  plot_ly(x = ~year, y = ~avg_tmax, type = "scatter", mode = "line")
+  mutate(year = as.factor(year)) %>% 
+  plot_ly(x = ~tmin, y = ~tmax, type = "scatter", color = ~year)
 ```
 
