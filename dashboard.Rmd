@@ -32,7 +32,11 @@ Column {data-width=650}
 ```{r}
 noaa_df %>% 
   mutate(month = as.factor(month)) %>% 
-  plot_ly(x = ~month, y = ~tmin, type = "box")
+  plot_ly(x = ~month, y = ~tmin, type = "box") %>% 
+    layout(
+         title = "Minimum Temperature by Month",
+         xaxis = list(title = "Month"),
+         yaxis = list(title = "Minimum Temperature"))
 ```
 
 Column {data-width=350}
@@ -42,10 +46,15 @@ Column {data-width=350}
 
 ```{r}
 noaa_df %>% group_by(month) %>% 
-  summarize(avg_prcp = mean(prcp, na.rm = TRUE)) %>% plot_ly(x = ~month, y = ~avg_prcp, type = "scatter", mode = "line") 
+  summarize(avg_prcp = mean(prcp, na.rm = TRUE)) %>% 
+  plot_ly(x = ~month, y = ~avg_prcp, type = "scatter", mode = "line") %>% 
+    layout(
+         title = "Average Precipitation by Month",
+         xaxis = list(title = "Month"),
+         yaxis = list(title = "Average Precipitation"))
 ```
 
-### Average Maximum Temperature by Year
+### Distribution of Average Maximum and Temperature
 
 ```{r}
 noaa_df %>% 
