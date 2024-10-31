@@ -49,7 +49,15 @@ noaa_df %>% group_by(month) %>%
 
 ```{r}
 noaa_df %>% 
-  mutate(year = as.factor(year)) %>% 
-  plot_ly(x = ~tmin, y = ~tmax, type = "scatter", color = ~year)
+  plot_ly() %>% 
+  add_histogram(x = ~tmax, name = "Max Temperature", opacity = 0.6) %>% 
+  add_histogram(x = ~tmin, name = "Min Temperature", opacity = 0.6) %>% 
+    layout(
+         title = "Distribution of Maximum and Minimum Temperature",
+         xaxis = list(title = "Temperature in Celsius"),
+         yaxis = list(title = "Frequency"))
+  
 ```
+
+
 
