@@ -29,6 +29,21 @@ Bachelor of Science in Applied Mathematics + Minor in Statistics and Data Scienc
 
 Professional Experience
 --------------------------------------------------------------------------------
+<table style="width: 100%; font-weight: bold;">
+  <tr>
+    <td>Hourly Project Assistant II </td>
+    <td style="text-align: right;">June 2025 - August 2025</td>
+  </tr>
+</table>
+
+New York State Department of Health | Albany, NY
+
+- Coordination of data collection, processing, and analysis related to NYS Primary Care Asthma Preceptorship Program (PCAP) and other workforce
+development strategies toward the development and implementation of NYSACP's overarching Strategic Evaluation Plan.
+
+- Assist in preparing partnership updates, presentations, and written reports to drive
+improvements in program implementation, with a particular focus on health equity and
+sustainability. 
 
 <table style="width: 100%; font-weight: bold;">
   <tr>
@@ -160,7 +175,7 @@ Skills
 --------------------------------------------------------------------------------
 **Mathematics:** Differential Equations, Mathematical Modeling, Mathematical Statistics and Probability, Statistical Modeling, Network Science, Mathematical Cryptology, Computational Statistics, Data Science, Biostatistical Methods
 
-**Coding:** Python (Basic to Intermediate), R (Intermediate), C++ (Basic)
+**Coding:** Python (Basic to Intermediate), R (Intermediate), C++ (Basic), SAS (Basic), Tableau (Basic)
 
 **Research:** Navigating various databases, literature reviews
 
