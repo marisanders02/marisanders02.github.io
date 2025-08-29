@@ -29,7 +29,7 @@ Column {data-width=650}
 
 ### Minimum Temperature by Month
 
-```{r}
+```{r message = FALSE}
 noaa_df %>% 
   mutate(month = as.factor(month)) %>% 
   plot_ly(x = ~month, y = ~tmin, type = "box") %>% 
@@ -44,7 +44,7 @@ Column {data-width=350}
 
 ### Average Precipitation by Month
 
-```{r}
+```{r message = FALSE}
 noaa_df %>% group_by(month) %>% 
   summarize(avg_prcp = mean(prcp, na.rm = TRUE)) %>% 
   plot_ly(x = ~month, y = ~avg_prcp, type = "scatter", mode = "line") %>% 
@@ -56,7 +56,7 @@ noaa_df %>% group_by(month) %>%
 
 ### Distribution of Average Maximum and Temperature
 
-```{r}
+```{r message = FALSE}
 noaa_df %>% 
   plot_ly() %>% 
   add_histogram(x = ~tmax, name = "Max Temperature", opacity = 0.6) %>% 

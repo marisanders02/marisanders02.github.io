@@ -10,7 +10,7 @@ output:
 
 ### Education
 
-I am a 1st year Biostatistics Masters student at Columbia Mailman School of Public Health, concentrating on Public Health Data Science. I graduated from UCLA in 2024 with a Bachelor of Science in Applied Mathematics and a minor in Statistics and Data Science. 
+I am a 2nd year Biostatistics Masters student at Columbia Mailman School of Public Health, concentrating on Public Health Data Science. I graduated from UCLA in 2024 with a Bachelor of Science in Applied Mathematics and a minor in Statistics and Data Science. I am currently looking for full time positions roles upon graduation from my master's program. 
 
 ### Work Experience 
 
